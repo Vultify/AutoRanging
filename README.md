@@ -2,21 +2,20 @@
 
 Automatically adjusts your scope zeroing to the distance of whatever you're aiming at while ADS.
 
-## Features
+Aim at something, and the sight snaps to the closest zeroing distance for it. No more clicking through zeroing steps mid-fight.
 
-- **Auto Range** — continuously adjusts zeroing while aiming down sights (toggleable)
-- **Manual Range** — keybind mode (default Alt+R) for on-demand ranging
-- **F12 config** — enable/disable the mod, switch auto vs. manual, customize the keybind
+## Two ways to range
 
-## Install
+**Auto** (default) — while you're ADS the mod checks the distance ahead every 0.3s and keeps the zero matched to your target.
 
-Extract the release zip into your SPT root folder — it lands as `BepInEx/plugins/AutoRanging/AutoRanging.dll`.
+**Manual** — flip Auto Range off in F12 and range on demand with Alt+R (rebindable) instead.
 
-## Compatibility
+## Setup
 
-- SPT 4.0.x
-- BepInEx 5.x
+Extract the release zip into your SPT root folder — it lands as `BepInEx/plugins/AutoRanging/AutoRanging.dll`. Runs on SPT 4.0.x / BepInEx 5.x.
 
-## Bugs & feedback
+Planned: ranging that accounts for the cartridge actually in the chamber instead of the sight's default ammo.
 
-Open an [issue](../../issues) or leave a comment on the mod page. See [CHANGELOG.md](CHANGELOG.md) for version history.
+---
+
+Bugs: open an [issue](../../issues) or comment on the mod page. History in [CHANGELOG.md](CHANGELOG.md).
