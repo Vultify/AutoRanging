@@ -123,6 +123,7 @@ namespace AutoRanging
                 hitDistance = 1000f;
             }
 
+            // TODO: range off the chambered cartridge not the sight's default ammo
             int bestIndex = FindClosestZeroIndex(distances, hitDistance);
 
             if (bestIndex != _lastSetIndex)
