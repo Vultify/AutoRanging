@@ -10,7 +10,7 @@ using Comfort.Common;
 
 namespace AutoRanging
 {
-    [BepInPlugin("com.vultify.autoranging", "AutoRanging", "1.0.0")]
+    [BepInPlugin("com.vultify.autoranging", "AutoRanging", "2.0.0")]
     public class AutoRangingPlugin : BaseUnityPlugin
     {
         private ConfigEntry<bool> _modEnabled;
@@ -114,7 +114,7 @@ namespace AutoRanging
 
             Ray ray = new Ray(_mainCamera.transform.position, _mainCamera.transform.forward);
             float hitDistance;
-            if (Physics.Raycast(ray, out RaycastHit hit, 1000f, LayerMaskClass.HighPolyWithTerrainMask))
+            if (Physics.Raycast(ray, out RaycastHit hit, 1000f, LayersMaskController.HighPolyWithTerrainMask))
             {
                 hitDistance = hit.distance;
             }

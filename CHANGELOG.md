@@ -4,6 +4,11 @@ All notable changes to AutoRanging are documented here. Format follows [Keep a C
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-08-01
+### Changed
+- Now targets SPT 4.1.0 — requires SPT 4.1.x and will not load on 4.0.x
+- Rebuilt against the deobfuscated 4.1 client assemblies
+
 ## [1.0.0] - 2026-06-28
 ### Added
 - Initial release — automatically adjusts scope zeroing to the distance of whatever you're aiming at while ADS

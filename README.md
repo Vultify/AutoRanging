@@ -12,7 +12,7 @@ Aim at something, and the sight snaps to the closest zeroing distance for it. No
 
 ## Setup
 
-Extract the release zip into your SPT root folder — it lands as `BepInEx/plugins/AutoRanging/AutoRanging.dll`. Runs on SPT 4.0.x / BepInEx 5.x.
+Extract the release zip into your SPT root folder — it lands as `BepInEx/plugins/AutoRanging/AutoRanging.dll`. Runs on SPT 4.1.x / BepInEx 5.x.
 
 Planned: ranging that accounts for the cartridge actually in the chamber instead of the sight's default ammo.
 
